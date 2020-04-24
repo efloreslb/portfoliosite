@@ -8,30 +8,30 @@ const BlogPage = () => {
          allMarkdownRemark {
          edges {
             node {
-                  frontmatter {
-                     title
-                     date
-                  } 
-               html
-               excerpt
+               frontmatter {
+                  title
+                  date
+               }
             }
          }
          }
       }
    `)
 
-   console.log(data.allMarkdownRemark.edges[0])
-
    return (
       <Layout>
-         <h1>Blog Page in Gatsby</h1>
-         <p>Posts will show up here later on</p>
+         <h1>Edgar's Blog</h1>
 
-         {data.allMarkdownRemark.edges.map = post => {
-            <ol>
-               {post.frontmatter.title}
-            </ol>
-         }}
+         <ol>
+            {data.allMarkdownRemark.edges.map(edge => {
+               return (
+                  <li>
+                     <h2>{edge.node.frontmatter.title}</h2>
+                     <p>{edge.node.frontmatter.date}</p>
+                  </li>
+               )
+            })}
+         </ol>
       
       </Layout>
    )
