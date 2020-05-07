@@ -1,5 +1,5 @@
 ---
-title: "React"
+title: "React Blogpost"
 date: "2020-01-01"
 ---
 

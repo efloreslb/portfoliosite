@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-templates-blog-js","path":"/blog/react","result":{"pageContext":{"slug":"react"}}}
+{"componentChunkName":"component---src-templates-blog-js","path":"/blog/react","result":{"data":{"markdownRemark":{"frontmatter":{"title":"React Blogpost","date":"2020-01-01"},"html":"<p>My experience using React to create web applications.</p>"}},"pageContext":{"slug":"react"}}}

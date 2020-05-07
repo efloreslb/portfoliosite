@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-templates-blog-js","path":"/blog/gatsby","result":{"pageContext":{"slug":"gatsby"}}}
+{"componentChunkName":"component---src-templates-blog-js","path":"/blog/gatsby","result":{"data":{"markdownRemark":{"frontmatter":{"title":"My experience using Gatsby JS","date":"2020-04-01"},"html":"<p>I am building my portfolio site using Gatsby JS.</p>\n<h2>Topics Covered</h2>\n<ol>\n<li>Gatsby</li>\n<li>GraphQL</li>\n<li>React</li>\n</ol>"}},"pageContext":{"slug":"gatsby"}}}
